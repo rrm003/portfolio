@@ -445,3 +445,15 @@ a:hover {
         text-align: center;
     }
 }
+
+.footer {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
