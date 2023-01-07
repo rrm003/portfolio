@@ -262,11 +262,23 @@ a:hover {
     text-align: center;
 }
 
-.skills-title {
+.skill {
     font-size: 2rem;
     font-size: clamp(2rem, 0.33rem+7.11vw, 3rem);
     line-height: 1.17;
     margin-bottom: 2px;
+}
+
+.skills-item:hover {
+    cursor: pointer;
+    color: var(--accent);
+}
+
+.skills-title,
+.portfolio-title {
+    font-size: var(--fs-32);
+    font-size: clamp(2rem, 0.33rem+7.11vw, 3rem);
+    color: var(--accent);
 }
 
 @media (min-width: 37.5em) {
@@ -450,6 +462,7 @@ a:hover {
     height: 150px;
     display: flex;
     justify-content: center;
+    box-shadow: rgba(255, 255, 255, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 .footer-wrapper {
